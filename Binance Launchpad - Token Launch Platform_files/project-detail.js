@@ -11743,7 +11743,7 @@
     },
     833: function(e, t, n) {
         __NEXT_REGISTER_PAGE("/project-detail", function() {
-            return e.exports = n(888),
+            return e.exports = n(892),
             {
                 page: e.exports.default
             }
@@ -15193,7 +15193,290 @@
     },
     885: function(e, t, n) {
         "use strict";
-        n(867);
+        var a = n(0)
+          , r = n.n(a)
+          , i = n(866)
+          , s = n.n(i);
+        function o(e) {
+            return (o = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                return typeof e
+            }
+            : function(e) {
+                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+            }
+            )(e)
+        }
+        function d(e, t) {
+            for (var n = 0; n < t.length; n++) {
+                var a = t[n];
+                a.enumerable = a.enumerable || !1,
+                a.configurable = !0,
+                "value"in a && (a.writable = !0),
+                Object.defineProperty(e, a.key, a)
+            }
+        }
+        function u(e, t) {
+            return !t || "object" !== o(t) && "function" != typeof t ? function(e) {
+                if (void 0 === e)
+                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                return e
+            }(e) : t
+        }
+        function l(e) {
+            return (l = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+                return e.__proto__ || Object.getPrototypeOf(e)
+            }
+            )(e)
+        }
+        function _(e, t) {
+            return (_ = Object.setPrototypeOf || function(e, t) {
+                return e.__proto__ = t,
+                e
+            }
+            )(e, t)
+        }
+        var c = function(e) {
+            function t() {
+                return function(e, t) {
+                    if (!(e instanceof t))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                u(this, l(t).apply(this, arguments))
+            }
+            var n, i, o;
+            return function(e, t) {
+                if ("function" != typeof t && null !== t)
+                    throw new TypeError("Super expression must either be null or a function");
+                e.prototype = Object.create(t && t.prototype, {
+                    constructor: {
+                        value: e,
+                        writable: !0,
+                        configurable: !0
+                    }
+                }),
+                t && _(e, t)
+            }(t, a["Component"]),
+            n = t,
+            (i = [{
+                key: "render",
+                value: function() {
+                    return r.a.createElement("div", {
+                        style: {
+                            display: "flex",
+                            justifyContent: "center",
+                            height: "50px"
+                        }
+                    }, r.a.createElement("img", {
+                        src: s.a,
+                        alt: "loading"
+                    }))
+                }
+            }]) && d(n.prototype, i),
+            o && d(n, o),
+            t
+        }();
+        t.a = c
+    },
+    887: function(e, t, n) {
+        "use strict";
+        n.d(t, "a", function() {
+            return L
+        });
+        var a, r = n(0), i = n.n(r), s = (n(16),
+        n(5)), o = n(7), d = n(54);
+        function u(e) {
+            return (u = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                return typeof e
+            }
+            : function(e) {
+                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+            }
+            )(e)
+        }
+        function l(e, t) {
+            for (var n = 0; n < t.length; n++) {
+                var a = t[n];
+                a.enumerable = a.enumerable || !1,
+                a.configurable = !0,
+                "value"in a && (a.writable = !0),
+                Object.defineProperty(e, a.key, a)
+            }
+        }
+        function _(e, t) {
+            return !t || "object" !== u(t) && "function" != typeof t ? function(e) {
+                if (void 0 === e)
+                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                return e
+            }(e) : t
+        }
+        function c(e) {
+            return (c = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+                return e.__proto__ || Object.getPrototypeOf(e)
+            }
+            )(e)
+        }
+        function m(e, t) {
+            return (m = Object.setPrototypeOf || function(e, t) {
+                return e.__proto__ = t,
+                e
+            }
+            )(e, t)
+        }
+        var h = s.a.div.withConfig({
+            componentId: "sc-16wbbn1-0"
+        })(["width:100%;height:40px;padding-top:12px;box-sizing:border-box;"])
+          , p = s.a.div.withConfig({
+            componentId: "sc-16wbbn1-1"
+        })(["width:100%;text-align:right;padding-bottom:6px;box-sizing:border-box;color:#e9e9e9;"])
+          , f = s.a.div.withConfig({
+            componentId: "sc-16wbbn1-2"
+        })(["float:left;font-size:20px;position:relative;top:-5px;"])
+          , M = s.a.div.withConfig({
+            componentId: "sc-16wbbn1-3"
+        })(["font-size:14px;"])
+          , y = s.a.div.withConfig({
+            componentId: "sc-16wbbn1-4"
+        })(["width:100%;height:3px;background:#3f3f3f;.ling{width:", ";height:100%;background:#e8b342;}"], function(e) {
+            return "".concat(e.widthp, "%")
+        })
+          , L = Object(o.a)(a = function(e) {
+            function t() {
+                return function(e, t) {
+                    if (!(e instanceof t))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                _(this, c(t).apply(this, arguments))
+            }
+            var n, a, s;
+            return function(e, t) {
+                if ("function" != typeof t && null !== t)
+                    throw new TypeError("Super expression must either be null or a function");
+                e.prototype = Object.create(t && t.prototype, {
+                    constructor: {
+                        value: e,
+                        writable: !0,
+                        configurable: !0
+                    }
+                }),
+                t && m(e, t)
+            }(t, r["Component"]),
+            n = t,
+            (a = [{
+                key: "render",
+                value: function() {
+                    var e = this.props
+                      , t = (e.i18n,
+                    e.detail)
+                      , n = t.purchasedNumber / (t.distributeNum || t.number) * 100;
+                    return i.a.createElement(h, null, i.a.createElement(p, null, i.a.createElement(f, null, Object(d.a)(t.purchasedNumber), " ", t.symbol), i.a.createElement(M, null, Number.parseFloat(n).toFixed(2), " %")), i.a.createElement(y, {
+                        widthp: Number.parseFloat(n).toFixed(2) || "0"
+                    }, i.a.createElement("div", {
+                        className: "ling"
+                    })))
+                }
+            }]) && l(n.prototype, a),
+            s && l(n, s),
+            t
+        }()) || a
+    },
+    888: function(e, t, n) {
+        "use strict";
+        n.d(t, "a", function() {
+            return L
+        });
+        n(872);
+        var a, r, i, s = n(874), o = n(0), d = n.n(o), u = (n(16),
+        n(5)), l = n(7);
+        n(885);
+        function _(e) {
+            return (_ = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                return typeof e
+            }
+            : function(e) {
+                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+            }
+            )(e)
+        }
+        function c(e, t) {
+            for (var n = 0; n < t.length; n++) {
+                var a = t[n];
+                a.enumerable = a.enumerable || !1,
+                a.configurable = !0,
+                "value"in a && (a.writable = !0),
+                Object.defineProperty(e, a.key, a)
+            }
+        }
+        function m(e, t) {
+            return !t || "object" !== _(t) && "function" != typeof t ? function(e) {
+                if (void 0 === e)
+                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                return e
+            }(e) : t
+        }
+        function h(e) {
+            return (h = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+                return e.__proto__ || Object.getPrototypeOf(e)
+            }
+            )(e)
+        }
+        function p(e, t) {
+            return (p = Object.setPrototypeOf || function(e, t) {
+                return e.__proto__ = t,
+                e
+            }
+            )(e, t)
+        }
+        var f = u.a.div.withConfig({
+            componentId: "jcecfh-0"
+        })(["position:fixed;left:0;top:0;padding-top:15%;width:100%;height:100%;text-align:center;margin:0 auto;background:rgba(107,105,105,0.7);z-index:99;"])
+          , M = u.a.div.withConfig({
+            componentId: "jcecfh-1"
+        })(["height:200px;width:340px;background:#333;border-radius:4px;margin:0 auto;i{font-size:70px;color:#f0b90b;margin-top:10%;}"])
+          , y = u.a.div.withConfig({
+            componentId: "jcecfh-2"
+        })(["line-height:18px;padding:0 20px;color:#f0b90b;margin-top:25px;font-size:14px;"])
+          , L = Object(l.a)((i = r = function(e) {
+            function t() {
+                return function(e, t) {
+                    if (!(e instanceof t))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t),
+                m(this, h(t).apply(this, arguments))
+            }
+            var n, a, r;
+            return function(e, t) {
+                if ("function" != typeof t && null !== t)
+                    throw new TypeError("Super expression must either be null or a function");
+                e.prototype = Object.create(t && t.prototype, {
+                    constructor: {
+                        value: e,
+                        writable: !0,
+                        configurable: !0
+                    }
+                }),
+                t && p(e, t)
+            }(t, o["Component"]),
+            n = t,
+            (a = [{
+                key: "render",
+                value: function() {
+                    var e = this.props.i18n;
+                    return d.a.createElement(f, null, d.a.createElement(M, null, d.a.createElement(s.a, {
+                        type: "loading",
+                        spin: !0
+                    }), d.a.createElement(y, null, e["lpd-waiting-queue"])))
+                }
+            }]) && c(n.prototype, a),
+            r && c(n, r),
+            t
+        }(),
+        r.defaultProps = {
+            i18n: {}
+        },
+        a = i)) || a
+    },
+    889: function(e, t, n) {
+        "use strict";
         var a = n(0)
           , r = n.n(a)
           , i = n(21)
@@ -17117,7 +17400,7 @@
                 targetOffset: ut
             }
         };
-        var _t = function(e) {
+        t.a = function(e) {
             var t = e.placement
               , n = function(e, t) {
                 var n = {};
@@ -17130,129 +17413,45 @@
                 align: lt[t]
             }, n))
         }
-          , ct = n(6)
-          , mt = n.n(ct)
-          , ht = (n(199),
-        n(875))
-          , pt = (n(202),
-        n(880))
-          , ft = n(16)
-          , Mt = n(5)
-          , yt = (n(3),
-        n(39))
-          , Lt = n.n(yt)
-          , Yt = n(7)
-          , gt = n(40)
-          , vt = n(8)
-          , kt = n(876)
-          , bt = n(883)
-          , Dt = (n(849),
-        n(878))
-          , wt = (n(872),
+    },
+    890: function(e, t, n) {
+        "use strict";
+        n(849);
+        var a = n(878)
+          , r = (n(872),
         n(874))
-          , Tt = n(94)
-          , St = n.n(Tt)
-          , jt = n(192)
-          , xt = n.n(jt)
-          , Ht = n(20)
-          , Et = n(54)
-          , Ot = n(866)
-          , Pt = n.n(Ot);
-        function Ct(e) {
-            return (Ct = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-                return typeof e
-            }
-            : function(e) {
-                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-            }
-            )(e)
-        }
-        function At(e, t) {
-            for (var n = 0; n < t.length; n++) {
-                var a = t[n];
-                a.enumerable = a.enumerable || !1,
-                a.configurable = !0,
-                "value"in a && (a.writable = !0),
-                Object.defineProperty(e, a.key, a)
-            }
-        }
-        function Nt(e, t) {
-            return !t || "object" !== Ct(t) && "function" != typeof t ? function(e) {
-                if (void 0 === e)
-                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-                return e
-            }(e) : t
-        }
-        function Wt(e) {
-            return (Wt = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-                return e.__proto__ || Object.getPrototypeOf(e)
-            }
-            )(e)
-        }
-        function Ft(e, t) {
-            return (Ft = Object.setPrototypeOf || function(e, t) {
-                return e.__proto__ = t,
-                e
-            }
-            )(e, t)
-        }
-        var It = function(e) {
-            function t() {
-                return function(e, t) {
-                    if (!(e instanceof t))
-                        throw new TypeError("Cannot call a class as a function")
-                }(this, t),
-                Nt(this, Wt(t).apply(this, arguments))
-            }
-            var n, i, s;
-            return function(e, t) {
-                if ("function" != typeof t && null !== t)
-                    throw new TypeError("Super expression must either be null or a function");
-                e.prototype = Object.create(t && t.prototype, {
-                    constructor: {
-                        value: e,
-                        writable: !0,
-                        configurable: !0
-                    }
-                }),
-                t && Ft(e, t)
-            }(t, a["Component"]),
-            n = t,
-            (i = [{
-                key: "render",
-                value: function() {
-                    return r.a.createElement("div", {
-                        style: {
-                            display: "flex",
-                            justifyContent: "center",
-                            height: "50px"
-                        }
-                    }, r.a.createElement("img", {
-                        src: Pt.a,
-                        alt: "loading"
-                    }))
-                }
-            }]) && At(n.prototype, i),
-            s && At(n, s),
-            t
-        }();
-        function zt() {}
-        var Rt = function(e, t) {
+          , i = n(6)
+          , s = n.n(i)
+          , o = (n(199),
+        n(875))
+          , d = n(0)
+          , u = n.n(d)
+          , l = (n(16),
+        n(5))
+          , _ = n(94)
+          , c = n.n(_)
+          , m = n(192)
+          , h = n.n(m)
+          , p = n(20)
+          , f = n(54)
+          , M = n(885);
+        function y() {}
+        var L = function(e, t) {
             var n, a, r, i = (t = t || {}).timeout || 3e3, s = {}, o = this;
-            return s.onmessage = t.onmessage || zt,
+            return s.onmessage = t.onmessage || y,
             s.onclose = function(e) {
                 1e3 !== e.code && 1005 !== e.code && !a.__closeRequested__ && !r && o.reconnect(e),
-                (t.onclose || zt)(e)
+                (t.onclose || y)(e)
             }
             ,
             s.onerror = function(e) {
-                (t.onerror || zt)(e),
+                (t.onerror || y)(e),
                 1e3 === e.code || 1005 === e.code || a.__closeRequested__ || r || o.reconnect(e)
             }
             ,
             s.onopen = function(e) {
                 r = null,
-                (t.onopen || zt)(e)
+                (t.onopen || y)(e)
             }
             ,
             o.open = function() {
@@ -17264,7 +17463,7 @@
             o.reconnect = function(e) {
                 r = setTimeout(function() {
                     r = null,
-                    (t.onreconnect || zt)(e),
+                    (t.onreconnect || y)(e),
                     o.open()
                 }, i)
             }
@@ -17285,9 +17484,9 @@
             o.open(),
             o
         }
-          , Ut = n(860);
-        function Jt(e) {
-            return (Jt = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+          , Y = n(860);
+        function g(e) {
+            return (g = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
                 return typeof e
             }
             : function(e) {
@@ -17295,7 +17494,7 @@
             }
             )(e)
         }
-        function Vt(e, t, n, a, r, i, s) {
+        function v(e, t, n, a, r, i, s) {
             try {
                 var o = e[i](s)
                   , d = o.value
@@ -17304,24 +17503,24 @@
             }
             o.done ? t(d) : Promise.resolve(d).then(a, r)
         }
-        function Bt(e) {
+        function k(e) {
             return function() {
                 var t = this
                   , n = arguments;
                 return new Promise(function(a, r) {
                     var i = e.apply(t, n);
                     function s(e) {
-                        Vt(i, a, r, s, o, "next", e)
+                        v(i, a, r, s, o, "next", e)
                     }
                     function o(e) {
-                        Vt(i, a, r, s, o, "throw", e)
+                        v(i, a, r, s, o, "throw", e)
                     }
                     s(void 0)
                 }
                 )
             }
         }
-        function Gt(e, t) {
+        function b(e, t) {
             for (var n = 0; n < t.length; n++) {
                 var a = t[n];
                 a.enumerable = a.enumerable || !1,
@@ -17330,55 +17529,72 @@
                 Object.defineProperty(e, a.key, a)
             }
         }
-        function Kt(e, t) {
-            return !t || "object" !== Jt(t) && "function" != typeof t ? function(e) {
+        function D(e, t) {
+            return !t || "object" !== g(t) && "function" != typeof t ? function(e) {
                 if (void 0 === e)
                     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
                 return e
             }(e) : t
         }
-        function Zt(e) {
-            return (Zt = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+        function w(e) {
+            return (w = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
                 return e.__proto__ || Object.getPrototypeOf(e)
             }
             )(e)
         }
-        function qt(e, t) {
-            return (qt = Object.setPrototypeOf || function(e, t) {
+        function T(e, t) {
+            return (T = Object.setPrototypeOf || function(e, t) {
                 return e.__proto__ = t,
                 e
             }
             )(e, t)
         }
-        var Xt, Qt = St()().publicRuntimeConfig.lpdWssUrl, $t = Mt.a.div.withConfig({
+        n.d(t, "a", function() {
+            return R
+        });
+        var S = c()().publicRuntimeConfig.lpdWssUrl
+          , j = l.a.div.withConfig({
             componentId: "sc-1xzqo72-0"
-        })(["padding-bottom:170px;font-size:14px;"]), en = Mt.a.div.withConfig({
+        })(["padding-bottom:170px;font-size:14px;"])
+          , x = l.a.div.withConfig({
             componentId: "sc-1xzqo72-1"
         })(["position:relative;input{text-align:left;line-height:37px;border-radius:4px;border:1px solid ", ";width:100%;padding:5px 10px;font-size:18px;position:relative;top:5px;&:focus{border:1px solid #f0b90b;outline:none;}&::-moz-placeholder{color:#D1D1D1;font-size:14px;}&::-webkit-input-placeholder{color:#D1D1D1;font-size:14px;}&::-ms-input-placeholder{color:#D1D1D1;font-size:14px;}&::-webkit-inner-spin-button{display:none;}}"], function(e) {
             return "" !== e.error ? "#FF5757" : "#bebebe"
-        }), tn = Mt.a.div.withConfig({
+        })
+          , H = l.a.div.withConfig({
             componentId: "sc-1xzqo72-2"
-        })(["position:relative;top:-24px;height:65px;border-bottom:1px solid #eee;"]), nn = Mt.a.div.withConfig({
+        })(["position:relative;top:-24px;height:65px;border-bottom:1px solid #eee;"])
+          , E = l.a.div.withConfig({
             componentId: "sc-1xzqo72-3"
-        })(["color:#999;line-height:30px;font-size:14px;text-align:left;"]), an = Mt.a.div.withConfig({
+        })(["color:#999;line-height:30px;font-size:14px;text-align:left;"])
+          , O = l.a.div.withConfig({
             componentId: "sc-1xzqo72-4"
-        })(["position:absolute;font-size:20px;color:#7c7c7c;top:45px;right:0;z-index:1;"]), rn = Mt.a.div.withConfig({
+        })(["position:absolute;font-size:20px;color:#7c7c7c;top:45px;right:0;z-index:1;"])
+          , P = l.a.div.withConfig({
             componentId: "sc-1xzqo72-5"
-        })(["position:relative;"]), sn = Mt.a.div.withConfig({
+        })(["position:relative;"])
+          , C = l.a.div.withConfig({
             componentId: "sc-1xzqo72-6"
-        })(["color:#C18909;"]), on = Mt.a.div.withConfig({
+        })(["color:#C18909;"])
+          , A = l.a.div.withConfig({
             componentId: "sc-1xzqo72-7"
-        })([""]), dn = Mt.a.div.withConfig({
+        })([""])
+          , N = l.a.div.withConfig({
             componentId: "sc-1xzqo72-8"
-        })(["text-align:right;position:absolute;top:5px;right:0;line-height:22px;"]), un = Mt.a.div.withConfig({
+        })(["text-align:right;position:absolute;top:5px;right:0;line-height:22px;"])
+          , W = l.a.div.withConfig({
             componentId: "sc-1xzqo72-9"
-        })(["color:#B1B1B1;"]), ln = Mt.a.div.withConfig({
+        })(["color:#B1B1B1;"])
+          , F = l.a.div.withConfig({
             componentId: "sc-1xzqo72-10"
-        })(["position:relative;margin-top:30px;"]), _n = Mt.a.div.withConfig({
+        })(["position:relative;margin-top:30px;"])
+          , I = l.a.div.withConfig({
             componentId: "sc-1xzqo72-11"
-        })(["background:#F0F0F2;position:absolute;margin-top:40px;width:100%;right:0;height:170px;.buy{width:360px;display:block;margin:33px auto;font-size:16px;}.veriry{margin-top:30px;padding:0 40px;display:flex;img{float:left;margin-left:10px;cursor:pointer;}input{float:left;line-height:25px;border-radius:4px;border:1px solid #BEBEBE;padding:5px 5px;padding-left:10px;font-size:20px;width:62px;&:focus{border:1px solid #f0b90b;outline:none;}&::-moz-placeholder{color:#D1D1D1;font-size:14px;}&::-webkit-input-placeholder{color:#D1D1D1;font-size:14px;}&::-ms-input-placeholder{color:#D1D1D1;font-size:14px;}}}"]), cn = Mt.a.span.withConfig({
+        })(["background:#F0F0F2;position:absolute;margin-top:40px;width:100%;right:0;height:170px;.buy{width:360px;display:block;margin:33px auto;font-size:16px;}.veriry{margin-top:30px;padding:0 40px;display:flex;img{float:left;margin-left:10px;cursor:pointer;}input{float:left;line-height:25px;border-radius:4px;border:1px solid #BEBEBE;padding:5px 5px;padding-left:10px;font-size:20px;width:62px;&:focus{border:1px solid #f0b90b;outline:none;}&::-moz-placeholder{color:#D1D1D1;font-size:14px;}&::-webkit-input-placeholder{color:#D1D1D1;font-size:14px;}&::-ms-input-placeholder{color:#D1D1D1;font-size:14px;}}}"])
+          , z = l.a.span.withConfig({
             componentId: "sc-1xzqo72-12"
-        })(["color:#FF5757;font-size:12px;float:right;line-height:30px;"]), mn = function(e) {
+        })(["color:#FF5757;font-size:12px;float:right;line-height:30px;"])
+          , R = function(e) {
             function t() {
                 var e, n;
                 !function(e, t) {
@@ -17387,7 +17603,7 @@
                 }(this, t);
                 for (var a = arguments.length, r = new Array(a), i = 0; i < a; i++)
                     r[i] = arguments[i];
-                return (n = Kt(this, (e = Zt(t)).call.apply(e, [this].concat(r)))).state = {
+                return (n = D(this, (e = w(t)).call.apply(e, [this].concat(r)))).state = {
                     num: 0,
                     show: !1,
                     imgData: "",
@@ -17407,40 +17623,40 @@
                     n.setState({
                         buying: !1
                     }),
-                    ht.a.fail(e.desc),
+                    o.a.fail(e.desc),
                     setTimeout(function() {
-                        return ht.a.destroy()
+                        return o.a.destroy()
                     }, 2e3),
                     n._socket && n._socket.close()
                 }
                 ,
-                n._onBuy = Bt(mt.a.mark(function e() {
-                    var t, a, r, i, s, o, d, u, l, _, c, m, h, p, f;
-                    return mt.a.wrap(function(e) {
+                n._onBuy = k(s.a.mark(function e() {
+                    var t, a, r, i, d, u, l, _, c, m, f, M, y, g, v;
+                    return s.a.wrap(function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
                                 if (n._startConfirm = Date.now(),
-                                Object(Ut.b)("confirm_buy_click", {}),
+                                Object(Y.b)("confirm_buy_click", {}),
                                 t = n.state,
                                 a = t.buyNum,
                                 r = t.verifyCode,
                                 i = n.props,
-                                s = i.i18n,
-                                o = i.locale,
-                                d = i.detail,
-                                u = i.userDetail,
-                                l = i.getProjectDetail,
-                                _ = i.startWaiting,
-                                c = i.stopWaiting,
-                                m = i.close,
+                                d = i.i18n,
+                                u = i.locale,
+                                l = i.detail,
+                                _ = i.userDetail,
+                                c = i.getProjectDetail,
+                                m = i.startWaiting,
+                                f = i.stopWaiting,
+                                M = i.close,
                                 "" !== r) {
                                     e.next = 8;
                                     break
                                 }
-                                return ht.a.fail(s["lpd-pls-code"]),
+                                return o.a.fail(d["lpd-pls-code"]),
                                 setTimeout(function() {
-                                    return ht.a.destroy()
+                                    return o.a.destroy()
                                 }, 2e3),
                                 e.abrupt("return");
                             case 8:
@@ -17448,53 +17664,53 @@
                                     e.next = 12;
                                     break
                                 }
-                                return ht.a.fail(s["lpd-correct-num"]),
+                                return o.a.fail(d["lpd-correct-num"]),
                                 setTimeout(function() {
-                                    return ht.a.destroy()
+                                    return o.a.destroy()
                                 }, 2e3),
                                 e.abrupt("return");
                             case 12:
-                                h = d.projectId,
-                                p = xt()(),
-                                f = u.userData.userId,
+                                y = l.projectId,
+                                g = h()(),
+                                v = _.userData.userId,
                                 n._socket && n._socket.close(),
                                 n.setState({
                                     buying: !0
                                 }),
-                                n._socket = new Rt("wss://".concat(Qt, "/api/purchase-result/").concat(f, "/").concat(h, "/").concat(p),{
+                                n._socket = new L("wss://".concat(S, "/api/purchase-result/").concat(v, "/").concat(y, "/").concat(g),{
                                     onmessage: function(e) {
                                         var t = JSON.parse(e.data);
                                         if (t.success)
-                                            c(),
-                                            Object(Ut.b)("buy_success_time", {
+                                            f(),
+                                            Object(Y.b)("buy_success_time", {
                                                 time: Math.round((Date.now() - n._startConfirm) / 1e3)
                                             }),
-                                            ht.a.success(s["lpd-buysuccess"] || "success"),
+                                            o.a.success(d["lpd-buysuccess"] || "success"),
                                             setTimeout(function() {
-                                                ht.a.destroy(),
-                                                l(h, o)
+                                                o.a.destroy(),
+                                                c(y, u)
                                             }, 1e3),
                                             n._socket.close();
                                         else if ("1" === t)
                                             return
                                     },
                                     onopen: function() {
-                                        var e = Bt(mt.a.mark(function e(t) {
+                                        var e = k(s.a.mark(function e(t) {
                                             var i;
-                                            return mt.a.wrap(function(e) {
+                                            return s.a.wrap(function(e) {
                                                 for (; ; )
                                                     switch (e.prev = e.next) {
                                                     case 0:
                                                         return e.next = 2,
-                                                        Object(Ht.a)({
+                                                        Object(p.a)({
                                                             num: a,
                                                             code: r,
-                                                            pid: h,
-                                                            uuid: p
+                                                            pid: y,
+                                                            uuid: g
                                                         });
                                                     case 2:
-                                                        (i = e.sent).success ? (_(),
-                                                        m()) : n._reBuy(i),
+                                                        (i = e.sent).success ? (m(),
+                                                        M()) : n._reBuy(i),
                                                         n.ping = setInterval(function() {
                                                             n._socket.send("1")
                                                         }, 4e4);
@@ -17571,14 +17787,14 @@
                     })
                 }
                 ,
-                n._changeVerify = Bt(mt.a.mark(function e() {
+                n._changeVerify = k(s.a.mark(function e() {
                     var t;
-                    return mt.a.wrap(function(e) {
+                    return s.a.wrap(function(e) {
                         for (; ; )
                             switch (e.prev = e.next) {
                             case 0:
                                 return e.next = 2,
-                                Object(Ht.q)();
+                                Object(p.q)();
                             case 2:
                                 (t = e.sent).success && n.setState({
                                     show: !0,
@@ -17592,7 +17808,7 @@
                 })),
                 n
             }
-            var n, i, s;
+            var n, i, l;
             return function(e, t) {
                 if ("function" != typeof t && null !== t)
                     throw new TypeError("Super expression must either be null or a function");
@@ -17603,26 +17819,26 @@
                         configurable: !0
                     }
                 }),
-                t && qt(e, t)
-            }(t, a["Component"]),
+                t && T(e, t)
+            }(t, d["Component"]),
             n = t,
             (i = [{
                 key: "componentDidMount",
                 value: function() {
-                    var e = Bt(mt.a.mark(function e() {
+                    var e = k(s.a.mark(function e() {
                         var t, n, a, r, i;
-                        return mt.a.wrap(function(e) {
+                        return s.a.wrap(function(e) {
                             for (; ; )
                                 switch (e.prev = e.next) {
                                 case 0:
                                     return t = this.props.detail,
                                     e.prev = 1,
                                     e.next = 4,
-                                    Object(Ht.q)();
+                                    Object(p.q)();
                                 case 4:
                                     return n = e.sent,
                                     e.next = 7,
-                                    Object(Ht.g)(t.projectId);
+                                    Object(p.g)(t.projectId);
                                 case 7:
                                     return a = e.sent,
                                     n.success && this.setState({
@@ -17632,7 +17848,7 @@
                                         minToken: a.min
                                     }),
                                     e.next = 11,
-                                    Object(Ht.m)();
+                                    Object(p.m)();
                                 case 11:
                                     (r = e.sent).success && (i = (i = r.data && r.data.filter(function(e) {
                                         return e.asset === t.asset
@@ -17672,666 +17888,65 @@
                     var e = this
                       , t = this.state
                       , n = t.imgData
-                      , a = t.userOwnToken
-                      , i = t.maxToken
-                      , s = t.loading
-                      , o = t.payToken
-                      , d = t.error
-                      , u = t.disabled
-                      , l = t.buying
-                      , _ = this.props
-                      , c = _.detail
-                      , m = _.i18n;
-                    _.userDetail;
-                    return r.a.createElement($t, null, r.a.createElement(tn, null, r.a.createElement(nn, null, m["lpd-assets"] || "Your current balance", "："), r.a.createElement(dn, null, r.a.createElement(on, null, Object(Et.a)(a, 8), " ", c.asset), r.a.createElement(sn, null, m["lpd-max-buy"], " ", Object(Et.a)(i), " ", c.symbol))), r.a.createElement(en, {
-                        error: d
-                    }, s ? r.a.createElement(It, null) : r.a.createElement(rn, null, r.a.createElement(nn, null, m["lpd-Quantity"] || "Purchase amount"), r.a.createElement(an, null, c.symbol), r.a.createElement("input", {
+                      , i = t.userOwnToken
+                      , s = t.maxToken
+                      , o = t.loading
+                      , d = t.payToken
+                      , l = t.error
+                      , _ = t.disabled
+                      , c = t.buying
+                      , m = this.props
+                      , h = m.detail
+                      , p = m.i18n;
+                    m.userDetail;
+                    return u.a.createElement(j, null, u.a.createElement(H, null, u.a.createElement(E, null, p["lpd-assets"] || "Your current balance", "："), u.a.createElement(N, null, u.a.createElement(A, null, Object(f.a)(i, 8), " ", h.asset), u.a.createElement(C, null, p["lpd-max-buy"], " ", Object(f.a)(s), " ", h.symbol))), u.a.createElement(x, {
+                        error: l
+                    }, o ? u.a.createElement(M.a, null) : u.a.createElement(P, null, u.a.createElement(E, null, p["lpd-Quantity"] || "Purchase amount"), u.a.createElement(O, null, h.symbol), u.a.createElement("input", {
                         type: "number",
                         onChange: this._onChangeNum,
-                        placeholder: m["lpd-Purchase quantity"] || "Enter purchase amount",
+                        placeholder: p["lpd-Purchase quantity"] || "Enter purchase amount",
                         onFocus: function() {
                             return e._numStart = Date.now()
                         },
                         onBlur: function() {
-                            return Object(Ut.b)("token_num_type_time", {
+                            return Object(Y.b)("token_num_type_time", {
                                 time: (Date.now() - e._numStart) / 1e3
                             })
                         }
-                    }), r.a.createElement(cn, null, d))), r.a.createElement(ln, null, r.a.createElement(nn, null, m["lpd-Handle"] || "Amount to pay", "："), r.a.createElement(dn, null, r.a.createElement(on, null, Object(Et.a)(o, 8), " ", c.asset), r.a.createElement(un, null, "1 ", c.symbol, " = ", c.price.toFixed(8), " ", c.asset))), r.a.createElement(_n, null, r.a.createElement("div", {
+                    }), u.a.createElement(z, null, l))), u.a.createElement(F, null, u.a.createElement(E, null, p["lpd-Handle"] || "Amount to pay", "："), u.a.createElement(N, null, u.a.createElement(A, null, Object(f.a)(d, 8), " ", h.asset), u.a.createElement(W, null, "1 ", h.symbol, " = ", h.price.toFixed(8), " ", h.asset))), u.a.createElement(I, null, u.a.createElement("div", {
                         className: "veriry"
-                    }, r.a.createElement(nn, null, m["lpd-code"] || "Enter verification code", "："), r.a.createElement("input", {
+                    }, u.a.createElement(E, null, p["lpd-code"] || "Enter verification code", "："), u.a.createElement("input", {
                         type: "text",
                         onChange: this._onChangeVerify,
                         onFocus: function() {
                             return e._veristart = Date.now()
                         },
                         onBlur: function() {
-                            return Object(Ut.b)("code_type_time", {
+                            return Object(Y.b)("code_type_time", {
                                 time: Math.round((Date.now() - e._veristart) / 1e3)
                             })
                         }
-                    }), r.a.createElement("img", {
+                    }), u.a.createElement("img", {
                         src: "data:image/gif;base64,".concat(n),
                         alt: "",
                         onClick: this._changeVerify
-                    })), r.a.createElement(Dt.a, {
-                        disabled: u || l,
+                    })), u.a.createElement(a.a, {
+                        disabled: _ || c,
                         mode: "fixed",
                         type: "primary",
                         className: "buy",
                         onClick: this._onBuy
-                    }, l ? r.a.createElement(wt.a, {
+                    }, c ? u.a.createElement(r.a, {
                         type: "loading",
                         spin: !0
-                    }) : null, m["lpd-confirmbuy"] || "Confirm Purchase")))
+                    }) : null, p["lpd-confirmbuy"] || "Confirm Purchase")))
                 }
-            }]) && Gt(n.prototype, i),
-            s && Gt(n, s),
+            }]) && b(n.prototype, i),
+            l && b(n, l),
             t
-        }();
-        function hn(e) {
-            return (hn = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-                return typeof e
-            }
-            : function(e) {
-                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-            }
-            )(e)
-        }
-        function pn(e, t) {
-            for (var n = 0; n < t.length; n++) {
-                var a = t[n];
-                a.enumerable = a.enumerable || !1,
-                a.configurable = !0,
-                "value"in a && (a.writable = !0),
-                Object.defineProperty(e, a.key, a)
-            }
-        }
-        function fn(e, t) {
-            return !t || "object" !== hn(t) && "function" != typeof t ? function(e) {
-                if (void 0 === e)
-                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-                return e
-            }(e) : t
-        }
-        function Mn(e) {
-            return (Mn = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-                return e.__proto__ || Object.getPrototypeOf(e)
-            }
-            )(e)
-        }
-        function yn(e, t) {
-            return (yn = Object.setPrototypeOf || function(e, t) {
-                return e.__proto__ = t,
-                e
-            }
-            )(e, t)
-        }
-        var Ln, Yn, gn, vn = Mt.a.div.withConfig({
-            componentId: "sc-16wbbn1-0"
-        })(["width:100%;height:40px;padding-top:12px;box-sizing:border-box;"]), kn = Mt.a.div.withConfig({
-            componentId: "sc-16wbbn1-1"
-        })(["width:100%;text-align:right;padding-bottom:6px;box-sizing:border-box;color:#e9e9e9;"]), bn = Mt.a.div.withConfig({
-            componentId: "sc-16wbbn1-2"
-        })(["float:left;font-size:20px;position:relative;top:-5px;"]), Dn = Mt.a.div.withConfig({
-            componentId: "sc-16wbbn1-3"
-        })(["font-size:14px;"]), wn = Mt.a.div.withConfig({
-            componentId: "sc-16wbbn1-4"
-        })(["width:100%;height:3px;background:#3f3f3f;.ling{width:", ";height:100%;background:#e8b342;}"], function(e) {
-            return "".concat(e.widthp, "%")
-        }), Tn = Object(Yt.a)(Xt = function(e) {
-            function t() {
-                return function(e, t) {
-                    if (!(e instanceof t))
-                        throw new TypeError("Cannot call a class as a function")
-                }(this, t),
-                fn(this, Mn(t).apply(this, arguments))
-            }
-            var n, i, s;
-            return function(e, t) {
-                if ("function" != typeof t && null !== t)
-                    throw new TypeError("Super expression must either be null or a function");
-                e.prototype = Object.create(t && t.prototype, {
-                    constructor: {
-                        value: e,
-                        writable: !0,
-                        configurable: !0
-                    }
-                }),
-                t && yn(e, t)
-            }(t, a["Component"]),
-            n = t,
-            (i = [{
-                key: "render",
-                value: function() {
-                    var e = this.props
-                      , t = (e.i18n,
-                    e.detail)
-                      , n = t.purchasedNumber / (t.distributeNum || t.number) * 100;
-                    return r.a.createElement(vn, null, r.a.createElement(kn, null, r.a.createElement(bn, null, Object(Et.a)(t.purchasedNumber), " ", t.symbol), r.a.createElement(Dn, null, Number.parseFloat(n).toFixed(2), " %")), r.a.createElement(wn, {
-                        widthp: Number.parseFloat(n).toFixed(2) || "0"
-                    }, r.a.createElement("div", {
-                        className: "ling"
-                    })))
-                }
-            }]) && pn(n.prototype, i),
-            s && pn(n, s),
-            t
-        }()) || Xt;
-        function Sn(e) {
-            return (Sn = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-                return typeof e
-            }
-            : function(e) {
-                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-            }
-            )(e)
-        }
-        function jn(e, t) {
-            for (var n = 0; n < t.length; n++) {
-                var a = t[n];
-                a.enumerable = a.enumerable || !1,
-                a.configurable = !0,
-                "value"in a && (a.writable = !0),
-                Object.defineProperty(e, a.key, a)
-            }
-        }
-        function xn(e, t) {
-            return !t || "object" !== Sn(t) && "function" != typeof t ? function(e) {
-                if (void 0 === e)
-                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-                return e
-            }(e) : t
-        }
-        function Hn(e) {
-            return (Hn = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-                return e.__proto__ || Object.getPrototypeOf(e)
-            }
-            )(e)
-        }
-        function En(e, t) {
-            return (En = Object.setPrototypeOf || function(e, t) {
-                return e.__proto__ = t,
-                e
-            }
-            )(e, t)
-        }
-        var On, Pn, Cn, An, Nn = Mt.a.div.withConfig({
-            componentId: "jcecfh-0"
-        })(["position:fixed;left:0;top:0;padding-top:15%;width:100%;height:100%;text-align:center;margin:0 auto;background:rgba(107,105,105,0.7);z-index:99;"]), Wn = Mt.a.div.withConfig({
-            componentId: "jcecfh-1"
-        })(["height:200px;width:340px;background:#333;border-radius:4px;margin:0 auto;i{font-size:70px;color:#f0b90b;margin-top:10%;}"]), Fn = Mt.a.div.withConfig({
-            componentId: "jcecfh-2"
-        })(["line-height:18px;padding:0 20px;color:#f0b90b;margin-top:25px;font-size:14px;"]), In = Object(Yt.a)((gn = Yn = function(e) {
-            function t() {
-                return function(e, t) {
-                    if (!(e instanceof t))
-                        throw new TypeError("Cannot call a class as a function")
-                }(this, t),
-                xn(this, Hn(t).apply(this, arguments))
-            }
-            var n, i, s;
-            return function(e, t) {
-                if ("function" != typeof t && null !== t)
-                    throw new TypeError("Super expression must either be null or a function");
-                e.prototype = Object.create(t && t.prototype, {
-                    constructor: {
-                        value: e,
-                        writable: !0,
-                        configurable: !0
-                    }
-                }),
-                t && En(e, t)
-            }(t, a["Component"]),
-            n = t,
-            (i = [{
-                key: "render",
-                value: function() {
-                    var e = this.props.i18n;
-                    return r.a.createElement(Nn, null, r.a.createElement(Wn, null, r.a.createElement(wt.a, {
-                        type: "loading",
-                        spin: !0
-                    }), r.a.createElement(Fn, null, e["lpd-waiting-queue"])))
-                }
-            }]) && jn(n.prototype, i),
-            s && jn(n, s),
-            t
-        }(),
-        Yn.defaultProps = {
-            i18n: {}
-        },
-        Ln = gn)) || Ln;
-        function zn(e) {
-            return (zn = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
-                return typeof e
-            }
-            : function(e) {
-                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
-            }
-            )(e)
-        }
-        function Rn(e, t, n, a, r, i, s) {
-            try {
-                var o = e[i](s)
-                  , d = o.value
-            } catch (e) {
-                return void n(e)
-            }
-            o.done ? t(d) : Promise.resolve(d).then(a, r)
-        }
-        function Un(e) {
-            return function() {
-                var t = this
-                  , n = arguments;
-                return new Promise(function(a, r) {
-                    var i = e.apply(t, n);
-                    function s(e) {
-                        Rn(i, a, r, s, o, "next", e)
-                    }
-                    function o(e) {
-                        Rn(i, a, r, s, o, "throw", e)
-                    }
-                    s(void 0)
-                }
-                )
-            }
-        }
-        function Jn(e, t) {
-            for (var n = 0; n < t.length; n++) {
-                var a = t[n];
-                a.enumerable = a.enumerable || !1,
-                a.configurable = !0,
-                "value"in a && (a.writable = !0),
-                Object.defineProperty(e, a.key, a)
-            }
-        }
-        function Vn(e, t) {
-            return !t || "object" !== zn(t) && "function" != typeof t ? function(e) {
-                if (void 0 === e)
-                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
-                return e
-            }(e) : t
-        }
-        function Bn(e) {
-            return (Bn = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
-                return e.__proto__ || Object.getPrototypeOf(e)
-            }
-            )(e)
-        }
-        function Gn(e, t) {
-            return (Gn = Object.setPrototypeOf || function(e, t) {
-                return e.__proto__ = t,
-                e
-            }
-            )(e, t)
-        }
-        n.d(t, "a", function() {
-            return oa
-        });
-        var Kn = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-0"
-        })(["width:1200px;margin:0 auto;padding:50px 0;.desc{display:flex;align-items:flex-end;position:relative;}img{display:inline-block;width:282px;height:198px;background:#ddd;}"])
-          , Zn = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-1"
-        })(["margin-left:30px;h1{font-size:22px;color:#fff;line-height:30px;margin-bottom:42px;}"])
-          , qn = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-2"
-        })(["display:flex;font-size:14px;width:320px;border-bottom:1px solid #212121;line-height:40px;justify-content:space-between;color:#999;span{display:inline-block;:last-child{color:#fff;font-weight:900;}}"])
-          , Xn = Mt.a.span.withConfig({
-            componentId: "sc-1vbayg0-3"
-        })(["font-size:14px;color:#F3BA2E;margin-left:15px;"])
-          , Qn = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-4"
-        })(["margin-left:60px;color:#999;display:flex;flex-direction:column;span{font-size:20px;color:#fff;padding:0 3px;font-weight:900;}"])
-          , $n = Mt.a.button.withConfig({
-            componentId: "sc-1vbayg0-5"
-        })(["width:263px;height:40px;background:rgba(240,185,11,1);line-height:40px;text-align:center;font-size:20px;color:#333;border:none;&:disabled{background:#999;color:#fff;cursor:not-allowed;}"])
-          , ea = Mt.a.a.withConfig({
-            componentId: "sc-1vbayg0-6"
-        })(["display:block;width:263px;height:40px;background:rgba(240,185,11,1);line-height:40px;text-align:center;font-size:20px;color:#333;margin-top:5px;"])
-          , ta = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-7"
-        })(["font-size:15px;line-height:40px;"])
-          , na = Mt.a.span.withConfig({
-            componentId: "sc-1vbayg0-8"
-        })([""])
-          , aa = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-9"
-        })(["font-size:14px;color:#999;line-height:36px;display:flex;justify-content:", ";span{font-size:14px;color:#fff;:first-child{display:inline-block;color:#999;padding:0;}}"], function(e) {
-            return e.saling ? "space-between" : "flex-start"
-        })
-          , ra = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-10"
-        })(["position:absolute;bottom:-100px;display:flex;font-size:14px;ul{display:flex;margin-left:5px;position:relative;top:2px;padding-right:25px;line-height:16px;height:16px;border-right:1px solid #999;li{a{color:#666;width:20px;&:hover{color:#F0B90B;}}margin-right:8px;}}.research{color:#F0B90B;font-size:14px;margin-left:20px;position:relative;top:-2px;i{margin-right:10px;}}"])
-          , ia = Mt.a.div.withConfig({
-            componentId: "sc-1vbayg0-11"
-        })(["position:absolute;bottom:0px;right:20px;color:#999;font-size:16px;span{color:#fff;font-weight:900;}"])
-          , sa = {
-            getProjectDetail: Ht.h
-        }
-          , oa = (On = Object(ft.b)(function(e) {
-            return {
-                logined: e.logined,
-                conditions: e.conditions,
-                userDetail: e.userDetail
-            }
-        }, sa),
-        Object(Yt.a)(Pn = On((An = Cn = function(e) {
-            function t() {
-                var e, n;
-                !function(e, t) {
-                    if (!(e instanceof t))
-                        throw new TypeError("Cannot call a class as a function")
-                }(this, t);
-                for (var a = arguments.length, i = new Array(a), s = 0; s < a; s++)
-                    i[s] = arguments[s];
-                return (n = Vn(this, (e = Bn(t)).call.apply(e, [this].concat(i)))).state = {
-                    loginUrl: "https://www.binance.com/login.html",
-                    d: 0,
-                    h: 0,
-                    m: 0,
-                    s: 0,
-                    end: !1,
-                    agree: !0,
-                    visible: !1,
-                    startWaiting: !1
-                },
-                n._showTime = function(e, t) {
-                    var a = n.props
-                      , r = a.getProjectDetail
-                      , i = a.detail
-                      , s = a.locale
-                      , o = (new Date).valueOf() + t;
-                    if ("20" !== i.projectStatus && (clearInterval(n._interval),
-                    clearInterval(n._finanlInterval)),
-                    o < e) {
-                        var d = parseInt((e - o) / 1e3)
-                          , u = Object(gt.b)(parseInt(d / 86400))
-                          , l = Object(gt.b)(parseInt(d / 3600 % 24))
-                          , _ = Object(gt.b)(parseInt(d / 60 % 60))
-                          , c = Object(gt.b)(parseInt(d % 60));
-                        n.setState({
-                            d: u,
-                            h: l,
-                            m: _,
-                            s: c
-                        })
-                    }
-                    o + 6e4 > e && (n._finanlInterval = setInterval(function() {
-                        r(i.projectId, s)
-                    }, 1e3))
-                }
-                ,
-                n._handleBuy = function() {
-                    var e = n.props;
-                    e.detail,
-                    e.i18n;
-                    Object(Ut.b)("buy_click", {}),
-                    n._openTime = Date.now(),
-                    n.setState({
-                        visible: !0
-                    })
-                }
-                ,
-                n._handleAgreement = function() {
-                    var e = n.props
-                      , t = e.detail
-                      , a = e.i18n;
-                    pt.a.info({
-                        width: "600px",
-                        okText: a["lpd-accept"],
-                        onOk: function() {
-                            var e = Un(mt.a.mark(function e() {
-                                var n;
-                                return mt.a.wrap(function(e) {
-                                    for (; ; )
-                                        switch (e.prev = e.next) {
-                                        case 0:
-                                            return e.next = 2,
-                                            Object(Ht.b)(t.projectId);
-                                        case 2:
-                                            (n = e.sent).success ? ht.a.success(a["lpd-agreement-success"] || "success", 0) : ht.a.fail(n.desc || "fail"),
-                                            setTimeout(function() {
-                                                return ht.a.destroy()
-                                            }, 1e3);
-                                        case 5:
-                                        case "end":
-                                            return e.stop()
-                                        }
-                                }, e, this)
-                            }));
-                            return function() {
-                                return e.apply(this, arguments)
-                            }
-                        }(),
-                        content: r.a.createElement(bt.a, {
-                            detail: t,
-                            i18n: a
-                        })
-                    })
-                }
-                ,
-                n
-            }
-            var n, i, s;
-            return function(e, t) {
-                if ("function" != typeof t && null !== t)
-                    throw new TypeError("Super expression must either be null or a function");
-                e.prototype = Object.create(t && t.prototype, {
-                    constructor: {
-                        value: e,
-                        writable: !0,
-                        configurable: !0
-                    }
-                }),
-                t && Gn(e, t)
-            }(t, a["Component"]),
-            n = t,
-            (i = [{
-                key: "componentDidMount",
-                value: function() {
-                    var e = Un(mt.a.mark(function e() {
-                        var t, n, a, r = this;
-                        return mt.a.wrap(function(e) {
-                            for (; ; )
-                                switch (e.prev = e.next) {
-                                case 0:
-                                    if (this.setState({
-                                        loginUrl: "https://www.binance.com/login.html?callback=".concat(window.location.href)
-                                    }),
-                                    "20" !== (t = this.props.detail).projectStatus) {
-                                        e.next = 8;
-                                        break
-                                    }
-                                    return e.next = 5,
-                                    Object(Ht.l)();
-                                case 5:
-                                    n = e.sent,
-                                    a = n - (new Date).valueOf(),
-                                    this._interval = setInterval(function() {
-                                        return r._showTime(t.time, a)
-                                    }, 1e3);
-                                case 8:
-                                case "end":
-                                    return e.stop()
-                                }
-                        }, e, this)
-                    }));
-                    return function() {
-                        return e.apply(this, arguments)
-                    }
-                }()
-            }, {
-                key: "componentWillUnmount",
-                value: function() {
-                    clearInterval(this._interval)
-                }
-            }, {
-                key: "render",
-                value: function() {
-                    var e = this
-                      , t = this.props
-                      , n = t.detail
-                      , a = t.i18n
-                      , i = t.logined
-                      , s = t.conditions
-                      , o = t.showStatus
-                      , d = t.userDetail
-                      , u = t.getProjectDetail
-                      , l = t.locale
-                      , _ = this.state
-                      , c = _.d
-                      , m = _.h
-                      , h = _.m
-                      , p = _.s
-                      , f = _.visible
-                      , M = _.startWaiting;
-                    return r.a.createElement(Kn, null, r.a.createElement("div", {
-                        className: "desc"
-                    }, r.a.createElement("img", {
-                        src: n.picPath,
-                        alt: ""
-                    }), r.a.createElement(Zn, null, r.a.createElement("h1", null, n.projectName, o ? r.a.createElement(Xn, null, n.projectStatusName) : null), r.a.createElement(qn, null, r.a.createElement("span", null, Object(Yt.b)("lpd-price", a), "："), Lt.a.number(n.price) ? r.a.createElement("span", null, "1 ", n.symbol, " = ", n.price.toFixed(8), " ", n.asset) : r.a.createElement("span", null, n.price)), r.a.createElement(qn, null, r.a.createElement("span", null, n.timeDesc, "："), o ? r.a.createElement("span", null, Object(gt.a)(new Date(n.time))) : null), r.a.createElement(qn, null, r.a.createElement("span", null, Object(Yt.b)("Session Supply", a), "："), Lt.a.number(n.price) ? r.a.createElement("span", null, Object(Et.a)(n.number), " ", n.symbol) : r.a.createElement("span", null, n.number))), r.a.createElement(Qn, null, "40" === n.projectStatus && o ? r.a.createElement(Tn, {
-                        detail: n
-                    }) : null, r.a.createElement(aa, {
-                        saling: "40" === n.projectStatus
-                    }, r.a.createElement("span", null, a["lpd-ammount"] || "Amount", ":"), Lt.a.number(n.price) ? r.a.createElement("span", null, Object(Et.a)(n.number), " ", n.symbol) : r.a.createElement("span", null, n.number)), "20" === n.projectStatus ? r.a.createElement(ta, null, "Starts In: ", r.a.createElement("span", null, c), a["lpd-d"] || "d", " ", r.a.createElement("span", null, m), a["lpd-h"] || "h", " ", r.a.createElement("span", null, h), a["lpd-m"] || "m", " ", r.a.createElement("span", null, p), a["lpd-s"] || "s") : null, i ? "40" !== n.projectStatus ? r.a.createElement($n, {
-                        disabled: !0
-                    }, Object(Yt.b)("Buy now", a)) : !s || 2 !== s.agreementStatus && 1 !== s.agreementStatus || "false" !== s.userLimitAreaStatus ? r.a.createElement(_t, {
-                        placement: "bottom",
-                        trigger: ["click", "hover"],
-                        overlay: r.a.createElement("span", null, a["lpd-prompt"])
-                    }, r.a.createElement($n, {
-                        disabled: !0
-                    }, Object(Yt.b)("Buy now", a))) : r.a.createElement($n, {
-                        onClick: e._handleBuy
-                    }, Object(Yt.b)("Buy now", a)) : r.a.createElement(ea, {
-                        href: this.state.loginUrl
-                    }, Object(Yt.b)("Login now", a))), "20" === n.projectStatus ? null : r.a.createElement(ia, null, a["lpd-contributors"] || "contributors: ", r.a.createElement("span", null, " ", n.purchasedCount)), r.a.createElement(ra, null, r.a.createElement(na, null, a["lpd-project-community"], "："), r.a.createElement("ul", null, r.a.createElement("li", null, r.a.createElement("a", {
-                        href: kt.b[n.symbol] && kt.b[n.symbol].tg,
-                        target: "_blank",
-                        onClick: function() {
-                            return Object(Ut.b)("media_click", {
-                                media: "telegram"
-                            })
-                        }
-                    }, r.a.createElement(vt.a, {
-                        type: "telegram"
-                    }))), r.a.createElement("li", null, r.a.createElement("a", {
-                        href: kt.b[n.symbol] && kt.b[n.symbol].twitter,
-                        target: "_blank",
-                        onClick: function() {
-                            return Object(Ut.b)("media_click", {
-                                media: "twitter"
-                            })
-                        }
-                    }, r.a.createElement(vt.a, {
-                        type: "twitter"
-                    }))), r.a.createElement("li", null, r.a.createElement("a", {
-                        href: kt.b[n.symbol] && kt.b[n.symbol].linkedin,
-                        target: "_blank",
-                        onClick: function() {
-                            return Object(Ut.b)("media_click", {
-                                media: "linkedin"
-                            })
-                        }
-                    }, r.a.createElement(vt.a, {
-                        type: "in"
-                    }))), r.a.createElement("li", null, r.a.createElement("a", {
-                        href: kt.b[n.symbol] && kt.b[n.symbol].whitePaper,
-                        target: "_blank",
-                        onClick: function() {
-                            return Object(Ut.b)("media_click", {
-                                media: "whitePaper"
-                            })
-                        }
-                    }, r.a.createElement(vt.a, {
-                        type: "writepaper"
-                    }))), r.a.createElement("li", null, r.a.createElement("a", {
-                        href: kt.b[n.symbol] && kt.b[n.symbol].blog,
-                        target: "_blank",
-                        onClick: function() {
-                            return Object(Ut.b)("media_click", {
-                                media: "blog"
-                            })
-                        }
-                    }, r.a.createElement(vt.a, {
-                        type: "blog"
-                    }))), r.a.createElement("li", null, r.a.createElement("a", {
-                        href: kt.b[n.symbol] && kt.b[n.symbol].website,
-                        onClick: function() {
-                            return Object(Ut.b)("media_click", {
-                                media: "website"
-                            })
-                        },
-                        target: "_blank"
-                    }, r.a.createElement(vt.a, {
-                        type: "web"
-                    })))), r.a.createElement("a", {
-                        href: "en" === l ? n.researchLinkEn : n.researchLinkCn,
-                        onClick: function() {
-                            return Object(Ut.b)("research_click", {})
-                        },
-                        target: "_blank",
-                        className: "research"
-                    }, r.a.createElement(vt.a, {
-                        type: "Research-B1"
-                    }), a["lpd-research"] || "Binance Research Report »"))), f ? r.a.createElement(pt.a, {
-                        title: "".concat(n.symbol, "/").concat(n.asset, " ").concat(a["lpd-buy"] || "Purchase"),
-                        onOk: function() {
-                            return e.setState({
-                                visible: !1
-                            })
-                        },
-                        onCancel: function() {
-                            return e.setState({
-                                visible: !1
-                            })
-                        },
-                        visible: this.state.visible,
-                        footer: !1,
-                        centered: !0
-                    }, r.a.createElement(mn, {
-                        detail: n,
-                        i18n: a,
-                        userDetail: d,
-                        close: function() {
-                            e.setState({
-                                visible: !1
-                            }),
-                            Object(Ut.b)("buy_modal_open_time", {
-                                time: Math.round((Date.now() - e._openTime) / 1e3)
-                            })
-                        },
-                        locale: l,
-                        getProjectDetail: u,
-                        startWaiting: function() {
-                            return e.setState({
-                                startWaiting: !0
-                            })
-                        },
-                        stopWaiting: function() {
-                            return e.setState({
-                                startWaiting: !1
-                            })
-                        }
-                    })) : null, M ? r.a.createElement(In, null) : null)
-                }
-            }]) && Jn(n.prototype, i),
-            s && Jn(n, s),
-            t
-        }(),
-        Cn.defaultProps = {
-            detail: {},
-            i18n: {},
-            logined: !1,
-            conditions: {},
-            showStatus: !1,
-            getProjectDetail: function() {}
-        },
-        Pn = An)) || Pn) || Pn)
+        }()
     },
-    888: function(e, t, n) {
+    892: function(e, t, n) {
         "use strict";
         n.r(t);
         var a = n(6)
@@ -18431,9 +18046,13 @@
             return function(e) {
                 return t.apply(this, arguments)
             }
-        }(), v = n(885), k = n(884);
-        function b(e) {
-            return (b = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+        }(), v = (n(867),
+        n(889)), k = (n(199),
+        n(875)), b = (n(202),
+        n(880)), D = (n(3),
+        n(39)), w = n.n(D), T = n(40), S = n(8), j = n(876), x = n(883), H = n(890), E = n(887), O = n(54), P = n(888), C = n(860);
+        function A(e) {
+            return (A = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
                 return typeof e
             }
             : function(e) {
@@ -18441,7 +18060,7 @@
             }
             )(e)
         }
-        function D(e, t, n, a, r, i, s) {
+        function N(e, t, n, a, r, i, s) {
             try {
                 var o = e[i](s)
                   , d = o.value
@@ -18450,24 +18069,24 @@
             }
             o.done ? t(d) : Promise.resolve(d).then(a, r)
         }
-        function w(e) {
+        function W(e) {
             return function() {
                 var t = this
                   , n = arguments;
                 return new Promise(function(a, r) {
                     var i = e.apply(t, n);
                     function s(e) {
-                        D(i, a, r, s, o, "next", e)
+                        N(i, a, r, s, o, "next", e)
                     }
                     function o(e) {
-                        D(i, a, r, s, o, "throw", e)
+                        N(i, a, r, s, o, "throw", e)
                     }
                     s(void 0)
                 }
                 )
             }
         }
-        function T(e, t) {
+        function F(e, t) {
             for (var n = 0; n < t.length; n++) {
                 var a = t[n];
                 a.enumerable = a.enumerable || !1,
@@ -18476,47 +18095,460 @@
                 Object.defineProperty(e, a.key, a)
             }
         }
-        function S(e, t) {
-            return !t || "object" !== b(t) && "function" != typeof t ? function(e) {
+        function I(e, t) {
+            return !t || "object" !== A(t) && "function" != typeof t ? function(e) {
                 if (void 0 === e)
                     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
                 return e
             }(e) : t
         }
-        function j(e) {
-            return (j = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+        function z(e) {
+            return (z = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
                 return e.__proto__ || Object.getPrototypeOf(e)
             }
             )(e)
         }
-        function x(e, t) {
-            return (x = Object.setPrototypeOf || function(e, t) {
+        function R(e, t) {
+            return (R = Object.setPrototypeOf || function(e, t) {
+                return e.__proto__ = t,
+                e
+            }
+            )(e, t)
+        }
+        var U, J, V, B, G = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-0"
+        })(["width:1200px;margin:0 auto;padding:50px 0;.desc{display:flex;align-items:flex-end;position:relative;}img{display:inline-block;width:282px;height:198px;background:#ddd;}"]), K = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-1"
+        })(["margin-left:30px;h1{font-size:22px;color:#fff;line-height:30px;margin-bottom:42px;}"]), Z = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-2"
+        })(["display:flex;font-size:14px;width:320px;border-bottom:1px solid #212121;line-height:40px;justify-content:space-between;color:#999;span{display:inline-block;:last-child{color:#fff;font-weight:900;}}"]), q = u.a.span.withConfig({
+            componentId: "sc-1vbayg0-3"
+        })(["font-size:14px;color:#F3BA2E;margin-left:15px;"]), X = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-4"
+        })(["margin-left:60px;color:#999;display:flex;flex-direction:column;span{font-size:20px;color:#fff;padding:0 3px;font-weight:900;}"]), Q = u.a.button.withConfig({
+            componentId: "sc-1vbayg0-5"
+        })(["width:263px;height:40px;background:rgba(240,185,11,1);line-height:40px;text-align:center;font-size:20px;color:#333;border:none;&:disabled{background:#999;color:#fff;cursor:not-allowed;}"]), $ = u.a.a.withConfig({
+            componentId: "sc-1vbayg0-6"
+        })(["display:block;width:263px;height:40px;background:rgba(240,185,11,1);line-height:40px;text-align:center;font-size:20px;color:#333;margin-top:5px;"]), ee = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-7"
+        })(["font-size:15px;line-height:40px;"]), te = u.a.span.withConfig({
+            componentId: "sc-1vbayg0-8"
+        })([""]), ne = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-9"
+        })(["font-size:14px;color:#999;line-height:36px;display:flex;justify-content:", ";span{font-size:14px;color:#fff;:first-child{display:inline-block;color:#999;padding:0;}}"], function(e) {
+            return e.saling ? "space-between" : "flex-start"
+        }), ae = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-10"
+        })(["position:absolute;bottom:-100px;display:flex;font-size:14px;ul{display:flex;margin-left:5px;position:relative;top:2px;padding-right:25px;line-height:16px;height:16px;border-right:1px solid #999;li{a{color:#666;width:20px;&:hover{color:#F0B90B;}}margin-right:8px;}}.research{color:#F0B90B;font-size:14px;margin-left:20px;position:relative;top:-2px;i{margin-right:10px;}}"]), re = u.a.div.withConfig({
+            componentId: "sc-1vbayg0-11"
+        })(["position:absolute;bottom:0px;right:20px;color:#999;font-size:16px;span{color:#fff;font-weight:900;}"]), ie = {
+            getProjectDetail: _.h
+        }, se = (M = Object(o.b)(function(e) {
+            return {
+                logined: e.logined,
+                conditions: e.conditions,
+                userDetail: e.userDetail
+            }
+        }, ie),
+        Object(l.a)(y = M((Y = L = function(e) {
+            function t() {
+                var e, n;
+                !function(e, t) {
+                    if (!(e instanceof t))
+                        throw new TypeError("Cannot call a class as a function")
+                }(this, t);
+                for (var a = arguments.length, i = new Array(a), o = 0; o < a; o++)
+                    i[o] = arguments[o];
+                return (n = I(this, (e = z(t)).call.apply(e, [this].concat(i)))).state = {
+                    loginUrl: "https://www.binance.com/login.html",
+                    d: 0,
+                    h: 0,
+                    m: 0,
+                    s: 0,
+                    end: !1,
+                    agree: !0,
+                    visible: !1,
+                    startWaiting: !1
+                },
+                n._showTime = function(e, t) {
+                    var a = n.props
+                      , r = a.getProjectDetail
+                      , i = a.detail
+                      , s = a.locale
+                      , o = (new Date).valueOf() + t;
+                    if ("20" !== i.projectStatus && (clearInterval(n._interval),
+                    clearInterval(n._finanlInterval)),
+                    o < e) {
+                        var d = parseInt((e - o) / 1e3)
+                          , u = Object(T.b)(parseInt(d / 86400))
+                          , l = Object(T.b)(parseInt(d / 3600 % 24))
+                          , _ = Object(T.b)(parseInt(d / 60 % 60))
+                          , c = Object(T.b)(parseInt(d % 60));
+                        n.setState({
+                            d: u,
+                            h: l,
+                            m: _,
+                            s: c
+                        })
+                    }
+                    o + 6e4 > e && (n._finanlInterval = setInterval(function() {
+                        r(i.projectId, s)
+                    }, 1e3))
+                }
+                ,
+                n._handleBuy = function() {
+                    var e = n.props;
+                    e.detail,
+                    e.i18n;
+                    Object(C.b)("buy_click", {}),
+                    n._openTime = Date.now(),
+                    n.setState({
+                        visible: !0
+                    })
+                }
+                ,
+                n._handleAgreement = function() {
+                    var e = n.props
+                      , t = e.detail
+                      , a = e.i18n;
+                    b.a.info({
+                        width: "600px",
+                        okText: a["lpd-accept"],
+                        onOk: function() {
+                            var e = W(r.a.mark(function e() {
+                                var n;
+                                return r.a.wrap(function(e) {
+                                    for (; ; )
+                                        switch (e.prev = e.next) {
+                                        case 0:
+                                            return e.next = 2,
+                                            Object(_.b)(t.projectId);
+                                        case 2:
+                                            (n = e.sent).success ? k.a.success(a["lpd-agreement-success"] || "success", 0) : k.a.fail(n.desc || "fail"),
+                                            setTimeout(function() {
+                                                return k.a.destroy()
+                                            }, 1e3);
+                                        case 5:
+                                        case "end":
+                                            return e.stop()
+                                        }
+                                }, e, this)
+                            }));
+                            return function() {
+                                return e.apply(this, arguments)
+                            }
+                        }(),
+                        content: s.a.createElement(x.a, {
+                            detail: t,
+                            i18n: a
+                        })
+                    })
+                }
+                ,
+                n
+            }
+            var n, a, o;
+            return function(e, t) {
+                if ("function" != typeof t && null !== t)
+                    throw new TypeError("Super expression must either be null or a function");
+                e.prototype = Object.create(t && t.prototype, {
+                    constructor: {
+                        value: e,
+                        writable: !0,
+                        configurable: !0
+                    }
+                }),
+                t && R(e, t)
+            }(t, i["Component"]),
+            n = t,
+            (a = [{
+                key: "componentDidMount",
+                value: function() {
+                    var e = W(r.a.mark(function e() {
+                        var t, n, a, i = this;
+                        return r.a.wrap(function(e) {
+                            for (; ; )
+                                switch (e.prev = e.next) {
+                                case 0:
+                                    if (this.setState({
+                                        loginUrl: "https://www.binance.com/login.html?callback=".concat(window.location.href)
+                                    }),
+                                    "20" !== (t = this.props.detail).projectStatus) {
+                                        e.next = 8;
+                                        break
+                                    }
+                                    return e.next = 5,
+                                    Object(_.l)();
+                                case 5:
+                                    n = e.sent,
+                                    a = n - (new Date).valueOf(),
+                                    this._interval = setInterval(function() {
+                                        return i._showTime(t.time, a)
+                                    }, 1e3);
+                                case 8:
+                                case "end":
+                                    return e.stop()
+                                }
+                        }, e, this)
+                    }));
+                    return function() {
+                        return e.apply(this, arguments)
+                    }
+                }()
+            }, {
+                key: "componentWillUnmount",
+                value: function() {
+                    clearInterval(this._interval)
+                }
+            }, {
+                key: "render",
+                value: function() {
+                    var e = this
+                      , t = this.props
+                      , n = t.detail
+                      , a = t.i18n
+                      , r = t.logined
+                      , i = t.conditions
+                      , o = t.showStatus
+                      , d = t.userDetail
+                      , u = t.getProjectDetail
+                      , _ = t.locale
+                      , c = this.state
+                      , m = c.d
+                      , h = c.h
+                      , p = c.m
+                      , f = c.s
+                      , M = c.visible
+                      , y = c.startWaiting;
+                    return s.a.createElement(G, null, s.a.createElement("div", {
+                        className: "desc"
+                    }, s.a.createElement("img", {
+                        src: n.picPath,
+                        alt: ""
+                    }), s.a.createElement(K, null, s.a.createElement("h1", null, n.projectName, o ? s.a.createElement(q, null, n.projectStatusName) : null), s.a.createElement(Z, null, s.a.createElement("span", null, Object(l.b)("lpd-price", a), "："), w.a.number(n.price) ? s.a.createElement("span", null, "1 ", n.symbol, " = ", n.price.toFixed(8), " ", n.asset) : s.a.createElement("span", null, n.price)), s.a.createElement(Z, null, s.a.createElement("span", null, n.timeDesc, "："), o ? s.a.createElement("span", null, Object(T.a)(new Date(n.time))) : null), s.a.createElement(Z, null, s.a.createElement("span", null, Object(l.b)("Session Supply", a), "："), w.a.number(n.price) ? s.a.createElement("span", null, Object(O.a)(n.number), " ", n.symbol) : s.a.createElement("span", null, n.number))), s.a.createElement(X, null, "40" === n.projectStatus && o ? s.a.createElement(E.a, {
+                        detail: n
+                    }) : null, s.a.createElement(ne, {
+                        saling: "40" === n.projectStatus
+                    }, s.a.createElement("span", null, a["lpd-ammount"] || "Amount", ":"), w.a.number(n.price) ? s.a.createElement("span", null, Object(O.a)(n.number), " ", n.symbol) : s.a.createElement("span", null, n.number)), "20" === n.projectStatus ? s.a.createElement(ee, null, "Starts In: ", s.a.createElement("span", null, m), a["lpd-d"] || "d", " ", s.a.createElement("span", null, h), a["lpd-h"] || "h", " ", s.a.createElement("span", null, p), a["lpd-m"] || "m", " ", s.a.createElement("span", null, f), a["lpd-s"] || "s") : null, r ? "40" !== n.projectStatus ? s.a.createElement(Q, {
+                        disabled: !0
+                    }, Object(l.b)("Buy now", a)) : !i || 2 !== i.agreementStatus && 1 !== i.agreementStatus || "false" !== i.userLimitAreaStatus ? s.a.createElement(v.a, {
+                        placement: "bottom",
+                        trigger: ["click", "hover"],
+                        overlay: s.a.createElement("span", null, a["lpd-prompt"])
+                    }, s.a.createElement(Q, {
+                        disabled: !0
+                    }, Object(l.b)("Buy now", a))) : s.a.createElement(Q, {
+                        onClick: e._handleBuy
+                    }, Object(l.b)("Buy now", a)) : s.a.createElement($, {
+                        href: this.state.loginUrl
+                    }, Object(l.b)("Login now", a))), "20" === n.projectStatus ? null : s.a.createElement(re, null, a["lpd-contributors"] || "contributors: ", s.a.createElement("span", null, " ", n.purchasedCount)), s.a.createElement(ae, null, s.a.createElement(te, null, a["lpd-project-community"], "："), s.a.createElement("ul", null, s.a.createElement("li", null, s.a.createElement("a", {
+                        href: j.b[n.symbol] && j.b[n.symbol].tg,
+                        target: "_blank",
+                        onClick: function() {
+                            return Object(C.b)("media_click", {
+                                media: "telegram"
+                            })
+                        }
+                    }, s.a.createElement(S.a, {
+                        type: "telegram"
+                    }))), s.a.createElement("li", null, s.a.createElement("a", {
+                        href: j.b[n.symbol] && j.b[n.symbol].twitter,
+                        target: "_blank",
+                        onClick: function() {
+                            return Object(C.b)("media_click", {
+                                media: "twitter"
+                            })
+                        }
+                    }, s.a.createElement(S.a, {
+                        type: "twitter"
+                    }))), s.a.createElement("li", null, s.a.createElement("a", {
+                        href: j.b[n.symbol] && j.b[n.symbol].linkedin,
+                        target: "_blank",
+                        onClick: function() {
+                            return Object(C.b)("media_click", {
+                                media: "linkedin"
+                            })
+                        }
+                    }, s.a.createElement(S.a, {
+                        type: "in"
+                    }))), s.a.createElement("li", null, s.a.createElement("a", {
+                        href: j.b[n.symbol] && j.b[n.symbol].whitePaper,
+                        target: "_blank",
+                        onClick: function() {
+                            return Object(C.b)("media_click", {
+                                media: "whitePaper"
+                            })
+                        }
+                    }, s.a.createElement(S.a, {
+                        type: "writepaper"
+                    }))), s.a.createElement("li", null, s.a.createElement("a", {
+                        href: j.b[n.symbol] && j.b[n.symbol].blog,
+                        target: "_blank",
+                        onClick: function() {
+                            return Object(C.b)("media_click", {
+                                media: "blog"
+                            })
+                        }
+                    }, s.a.createElement(S.a, {
+                        type: "blog"
+                    }))), s.a.createElement("li", null, s.a.createElement("a", {
+                        href: j.b[n.symbol] && j.b[n.symbol].website,
+                        onClick: function() {
+                            return Object(C.b)("media_click", {
+                                media: "website"
+                            })
+                        },
+                        target: "_blank"
+                    }, s.a.createElement(S.a, {
+                        type: "web"
+                    })))), s.a.createElement("a", {
+                        href: "en" === _ ? n.researchLinkEn : n.researchLinkCn,
+                        onClick: function() {
+                            return Object(C.b)("research_click", {})
+                        },
+                        target: "_blank",
+                        className: "research"
+                    }, s.a.createElement(S.a, {
+                        type: "Research-B1"
+                    }), a["lpd-research"] || "Binance Research Report »"))), M ? s.a.createElement(b.a, {
+                        title: "".concat(n.symbol, "/").concat(n.asset, " ").concat(a["lpd-buy"] || "Purchase"),
+                        onOk: function() {
+                            return e.setState({
+                                visible: !1
+                            })
+                        },
+                        onCancel: function() {
+                            return e.setState({
+                                visible: !1
+                            })
+                        },
+                        visible: this.state.visible,
+                        footer: !1,
+                        centered: !0
+                    }, s.a.createElement(H.a, {
+                        detail: n,
+                        i18n: a,
+                        userDetail: d,
+                        close: function() {
+                            e.setState({
+                                visible: !1
+                            }),
+                            Object(C.b)("buy_modal_open_time", {
+                                time: Math.round((Date.now() - e._openTime) / 1e3)
+                            })
+                        },
+                        locale: _,
+                        getProjectDetail: u,
+                        startWaiting: function() {
+                            return e.setState({
+                                startWaiting: !0
+                            })
+                        },
+                        stopWaiting: function() {
+                            return e.setState({
+                                startWaiting: !1
+                            })
+                        }
+                    })) : null, y ? s.a.createElement(P.a, null) : null)
+                }
+            }]) && F(n.prototype, a),
+            o && F(n, o),
+            t
+        }(),
+        L.defaultProps = {
+            detail: {},
+            i18n: {},
+            logined: !1,
+            conditions: {},
+            showStatus: !1,
+            getProjectDetail: function() {}
+        },
+        y = Y)) || y) || y), oe = n(884);
+        function de(e) {
+            return (de = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+                return typeof e
+            }
+            : function(e) {
+                return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
+            }
+            )(e)
+        }
+        function ue(e, t, n, a, r, i, s) {
+            try {
+                var o = e[i](s)
+                  , d = o.value
+            } catch (e) {
+                return void n(e)
+            }
+            o.done ? t(d) : Promise.resolve(d).then(a, r)
+        }
+        function le(e) {
+            return function() {
+                var t = this
+                  , n = arguments;
+                return new Promise(function(a, r) {
+                    var i = e.apply(t, n);
+                    function s(e) {
+                        ue(i, a, r, s, o, "next", e)
+                    }
+                    function o(e) {
+                        ue(i, a, r, s, o, "throw", e)
+                    }
+                    s(void 0)
+                }
+                )
+            }
+        }
+        function _e(e, t) {
+            for (var n = 0; n < t.length; n++) {
+                var a = t[n];
+                a.enumerable = a.enumerable || !1,
+                a.configurable = !0,
+                "value"in a && (a.writable = !0),
+                Object.defineProperty(e, a.key, a)
+            }
+        }
+        function ce(e, t) {
+            return !t || "object" !== de(t) && "function" != typeof t ? function(e) {
+                if (void 0 === e)
+                    throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
+                return e
+            }(e) : t
+        }
+        function me(e) {
+            return (me = Object.setPrototypeOf ? Object.getPrototypeOf : function(e) {
+                return e.__proto__ || Object.getPrototypeOf(e)
+            }
+            )(e)
+        }
+        function he(e, t) {
+            return (he = Object.setPrototypeOf || function(e, t) {
                 return e.__proto__ = t,
                 e
             }
             )(e, t)
         }
         n.d(t, "default", function() {
-            return P
+            return ye
         });
-        var H = u.a.div.withConfig({
+        var pe = u.a.div.withConfig({
             componentId: "wihu0f-0"
         })(["width:100%;height:300px;background:#000;margin-bottom:50px;"])
-          , E = u.a.div.withConfig({
+          , fe = u.a.div.withConfig({
             componentId: "wihu0f-1"
         })(["width:1200px;margin:0 auto;min-height:300px;padding-bottom:30px;"])
-          , O = {
+          , Me = {
             getUserConditionDetail: _.n,
             getProjectDetail: _.h
         }
-          , P = (M = Object(o.b)(function(e) {
+          , ye = (U = Object(o.b)(function(e) {
             return {
                 projectDetail: e.projectDetail,
                 logined: e.logined,
                 kyc: e.kyc
             }
-        }, O),
-        Object(l.a)(y = Object(d.withRouter)(y = M((Y = L = function(e) {
+        }, Me),
+        Object(l.a)(J = Object(d.withRouter)(J = U((B = V = function(e) {
             function t() {
                 var e, n;
                 !function(e, t) {
@@ -18525,7 +18557,7 @@
                 }(this, t);
                 for (var a = arguments.length, r = new Array(a), i = 0; i < a; i++)
                     r[i] = arguments[i];
-                return (n = S(this, (e = j(t)).call.apply(e, [this].concat(r)))).state = {
+                return (n = ce(this, (e = me(t)).call.apply(e, [this].concat(r)))).state = {
                     showStatus: !1
                 },
                 n
@@ -18541,13 +18573,13 @@
                         configurable: !0
                     }
                 }),
-                t && x(e, t)
+                t && he(e, t)
             }(t, i["Component"]),
             n = t,
             (a = [{
                 key: "componentDidMount",
                 value: function() {
-                    var e = w(r.a.mark(function e() {
+                    var e = le(r.a.mark(function e() {
                         var t, n, a, i, s, o, d;
                         return r.a.wrap(function(e) {
                             for (; ; )
@@ -18586,7 +18618,7 @@
             }, {
                 key: "componentDidUpdate",
                 value: function() {
-                    var e = w(r.a.mark(function e(t) {
+                    var e = le(r.a.mark(function e(t) {
                         var n, a, i, s;
                         return r.a.wrap(function(e) {
                             for (; ; )
@@ -18622,30 +18654,30 @@
                     e.metaData);
                     return s.a.createElement(c.default, {
                         metaData: n
-                    }, s.a.createElement(H, null, s.a.createElement(v.a, {
+                    }, s.a.createElement(pe, null, s.a.createElement(se, {
                         detail: t,
                         showStatus: this.state.showStatus
-                    })), s.a.createElement(k.a, {
+                    })), s.a.createElement(oe.a, {
                         detail: t
-                    }), s.a.createElement(E, {
+                    }), s.a.createElement(fe, {
                         dangerouslySetInnerHTML: {
                             __html: t.projectDetailDesc
                         }
                     }))
                 }
-            }]) && T(n.prototype, a),
-            o && T(n, o),
+            }]) && _e(n.prototype, a),
+            o && _e(n, o),
             t
         }(),
-        L.getInitialProps = g,
-        L.defaultProps = {
+        V.getInitialProps = g,
+        V.defaultProps = {
             projectDetail: {},
             kyc: {},
             router: {},
             metaData: {},
             locale: "en"
         },
-        y = Y)) || y) || y) || y)
+        J = B)) || J) || J) || J)
     },
     93: function(e, t, n) {
         "use strict";
